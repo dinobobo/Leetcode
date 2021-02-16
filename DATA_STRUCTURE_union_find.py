@@ -27,5 +27,4 @@ class UnionFindSet:
         else:
             self._parents[pv] = pu
             self._ranks[pu] += 1
-
         return True
